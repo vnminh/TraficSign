@@ -1,0 +1,57 @@
+[{"stream_name":"stderr","time":7.276447589,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.276617307,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.276629126,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.276632336,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.875154633,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.87520391,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.875210063,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.875213947,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":34.392322533,"data":"Device: cuda\n"}
+,{"stream_name":"stderr","time":34.594383282,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":34.594433738,"data":"\n"}
+,{"stream_name":"stderr","time":34.594440308,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":34.751995162,"data":"The image processor of type `BitImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":34.75203604,"data":"\n"}
+,{"stream_name":"stderr","time":34.7520409,"data":"The image processor of type `BitImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stdout","time":7457.430807113,"data":"Fine classes collected: 401\n"}
+,{"stream_name":"stdout","time":7457.430874954,"data":"Skipped invalid boxes: 0\n"}
+,{"stream_name":"stdout","time":7457.430883214,"data":"Example classes: ['complementary--accident-area--g3', 'complementary--both-directions--g1', 'complementary--buses--g1', 'complementary--chevron-left--g1', 'complementary--chevron-left--g2', 'complementary--chevron-left--g3', 'complementary--chevron-left--g4', 'complementary--chevron-left--g5', 'complementary--chevron-right--g1', 'complementary--chevron-right--g3']\n"}
+,{"stream_name":"stdout","time":7459.623081354,"data":"Saved artifacts:\n"}
+,{"stream_name":"stdout","time":7459.623119206,"data":"- /kaggle/working/cosine_fine_classifier/fine_class_means.npz\n"}
+,{"stream_name":"stdout","time":7459.623125572,"data":"- /kaggle/working/cosine_fine_classifier/fine_class_to_index.json\n"}
+,{"stream_name":"stdout","time":7459.623130233,"data":"- /kaggle/working/cosine_fine_classifier/index_to_fine_class.json\n"}
+,{"stream_name":"stdout","time":7459.623134624,"data":"- /kaggle/working/cosine_fine_classifier/coarse_to_fine_indices.json\n"}
+,{"stream_name":"stdout","time":7459.623138948,"data":"- /kaggle/working/cosine_fine_classifier/fine_class_cosine_stats.csv\n"}
+,{"stream_name":"stdout","time":7459.623143974,"data":"- /kaggle/working/cosine_fine_classifier/embed_metadata.json\n"}
+,{"stream_name":"stdout","time":7459.623161673,"data":"\n"}
+,{"stream_name":"stdout","time":7459.625387085,"data":"Overall class count: 401\n"}
+,{"stream_name":"stdout","time":7459.625411921,"data":"Mean vector matrix shape: (401, 768)\n"}
+,{"stream_name":"stderr","time":7462.847036478,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":7462.847093116,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":7462.847101355,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":7462.849359521,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":7462.84938674,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":7462.849670647,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":7462.849744702,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":7462.849760311,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":7462.849766623,"data":"Exception encountered at \"In [5]\":\n"}
+,{"stream_name":"stderr","time":7462.849772017,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":7462.849776645,"data":"ModuleNotFoundError                       Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":7462.849781691,"data":"/tmp/ipykernel_23/1099748098.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":7462.849786417,"data":"----\u003e 1 from ultralytics import YOLO\n"}
+,{"stream_name":"stderr","time":7462.849791333,"data":"      2 \n"}
+,{"stream_name":"stderr","time":7462.84979625,"data":"      3 \n"}
+,{"stream_name":"stderr","time":7462.849800983,"data":"      4 def classify_fine_from_coarse(\n"}
+,{"stream_name":"stderr","time":7462.849806094,"data":"      5     crop_bgr: np.ndarray,\n"}
+,{"stream_name":"stderr","time":7462.849810754,"data":"\n"}
+,{"stream_name":"stderr","time":7462.849815681,"data":"ModuleNotFoundError: No module named 'ultralytics'\n"}
+,{"stream_name":"stderr","time":7462.849821302,"data":"\n"}
+,{"stream_name":"stderr","time":7465.151736889,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7465.151775561,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7465.328021147,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7465.328051872,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7465.969063541,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7466.279827695,"data":"[NbConvertApp] Writing 108412 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7468.567148394,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7469.419064375,"data":"[NbConvertApp] Writing 403997 bytes to __results__.html\n"}
+]

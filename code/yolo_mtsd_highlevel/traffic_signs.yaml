@@ -1,0 +1,5 @@
+path: /home/minh-le-vo-nhat/Documents/Minh-DUT/Ky-8-2025-2026/BigData/BTNhom/code/yolo_mtsd_highlevel
+train: images/train
+val: images/val
+nc: 5
+names: ['other-sign', 'complementary', 'information', 'regulatory', 'warning']

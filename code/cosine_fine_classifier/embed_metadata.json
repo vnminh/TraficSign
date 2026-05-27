@@ -1,0 +1,11 @@
+{
+  "model_id": "facebook/dinov2-base",
+  "device": "cuda",
+  "embedding_dim": 768,
+  "n_fine_classes": 401,
+  "normalized_mean_vectors": true,
+  "mean_vector_shape": [
+    401,
+    768
+  ]
+}

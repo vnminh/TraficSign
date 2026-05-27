@@ -1,0 +1,14 @@
+torch
+torchvision
+opencv-python
+numpy
+pandas
+pillow
+matplotlib
+psycopg2-binary
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+tqdm
+albumentations

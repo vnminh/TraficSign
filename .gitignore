@@ -1,0 +1,7 @@
+**.pt
+**/Data/**
+**/runs/traffic_sign_yolov8_highlevel/weights/**
+**/runs/detect/**
+**/OpenCamera/**
+**.jpg
+**.png
